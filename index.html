@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simply-Dictionary</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="title">
+      <h1 class="mainHeader">Diction-ary!</h1>
+<!--  <h1 class="header">Enter word to retrieve its definition</h1> -->
+      <h4 class="smallHeader">Powered by: Merriam-Webster Dictionary API</h4>
+    </div>
+    <div class="wrap">
+      <div class="search">
+        <form onsubmit="return false">
+          <input id="word" class="searchTerm" type="text" placeholder="Enter word here...">
+          <button id="axButton" class="searchButton" type="submit" value="Search">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="definitionResults">
+      <div class="picture" hidden>
+        <img id="image" alt="Got it!">
+      </div>
+      <div id="masterList">
+        <ul id="definitionList"></ul>
+      </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="words.js"></script>
+  </body>
+</html>
