@@ -5,7 +5,7 @@ axButton.click(function() {
   sendReq();
 });
 
-function sendReq () {
+function sendReq () { 
 $.ajax({
   url: "https://dictionaryapi.com/api/v3/references/collegiate/json/"+word.val()+"?key=6e24356d-2fb6-4be3-b313-7b5d84c23b93",
   type: "GET",
@@ -44,7 +44,7 @@ function isDataEmpty (data) {
 
     return true;
   }
-  
+
   console.log("Arrived on --> isDataEmpty() = false");
 };
 
