@@ -9,6 +9,10 @@ input{
   text-align: center;
 }
 
+a{
+  text-decoration: none;
+}
+
 .mainHeader{
   margin-top: 5vw;
   margin-bottom: 1vw;
@@ -97,5 +101,11 @@ input{
 }
 
 #masterList{
-  margin: 15vw 20vw;
+  margin: 15vw 20vw 10vw;
+}
+
+#noSuggestions{
+  text-align: center;
+  padding-top: 3vw;
+  padding-left: 2vw;
 }
