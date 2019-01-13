@@ -57,6 +57,7 @@ a{
   color: #748c81;
   font-size: 1vw;
   text-size-adjust: none;
+  font-size-adjust: none;
 }
 
 .searchTerm:hover{
