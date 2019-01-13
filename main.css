@@ -55,9 +55,8 @@ a{
   border-radius: 5vw;
   outline: none;
   color: #748c81;
-  font-size: 16px;
+  font-size: 1vmin;
   text-size-adjust: none;
-  font-size-adjust: none;
 }
 
 .searchTerm:hover{
