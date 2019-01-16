@@ -55,7 +55,7 @@ a{
   border-radius: 5vw;
   outline: none;
   color: #748c81;
-  font-size: 2vmin;
+  font-size: 1vw;
   text-size-adjust: none;
 }
 
@@ -100,6 +100,12 @@ a{
   float: right;
   border: .3vw solid #00B4CC;
   margin-left: .2vw;
+}
+
+.responsive{
+  /*Responsive image*/
+  max-width: 100%;
+  height: auto;
 }
 
 #title{
